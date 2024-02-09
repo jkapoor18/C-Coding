@@ -11,10 +11,10 @@ int main() {
     cin >> divisor;
 
     quotient = dividend / divisor;
-    cout << "Quotient: " << quotient << endl;
+    cout << "Quotient: " << quotient<<"\n";
 
     remainder = dividend % divisor;  
-    cout << "Remainder: " << remainder << endl;
+    cout << "Remainder: " << remainder;
 
     return 0;
 }
