@@ -63,7 +63,6 @@ cout<<rem;
 return 0;
 
 
-
-
 }
+
 
