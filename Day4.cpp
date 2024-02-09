@@ -109,3 +109,17 @@ int main() {
     cout<<"Sum is:"<<sum;
     return 0;
 }
+
+
+#include<iostream>
+using namespace std;
+
+int main() {
+    int i,sum=0;
+    for(i=10;i>=1;i--)
+    {
+      cout<<i<<endl;
+    }
+  
+    return 0;
+}
