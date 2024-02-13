@@ -51,3 +51,4 @@ void avg()
       cout<<avg1;
   
 }
+
