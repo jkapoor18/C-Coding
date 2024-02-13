@@ -1,19 +1,17 @@
 #include <iostream>
 
-// Function to calculate the area of a rectangle
-double calculateRectangleArea(double length, double width) {
+double calculate_Rectangle_of_Area(double length, double width) {
     return length * width;
 }
 
-// Function to calculate the perimeter of a rectangle
-double calculateRectanglePerimeter(double length, double width) {
+double calculate_Rectangle_0f_Perimeter(double length, double width) {
     return 2 * (length + width);
 }
 
 int main() {
     double length, width;
 
-    // Input the length and width from the user
+    // Input the length & width from users
     std::cout << "Enter the length of the rectangle: ";
     std::cin >> length;
 
@@ -21,10 +19,10 @@ int main() {
     std::cin >> width;
 
     // Calculate the area
-    std::cout << "Area of the rectangle: " << calculateRectangleArea(length, width) << std::endl;
+    std::cout << "Area of the rectangle: " << calculate_Rectangle_of_Area(length, width) << std::endl;
 
     // Calculate the perimeter
-    std::cout << "Perimeter of the rectangle: " << calculateRectanglePerimeter(length, width) << std::endl;
+    std::cout << "Perimeter of the rectangle: " << calculate_Rectangle_0f_Perimeter(length, width) << std::endl;
 
     return 0;
 }
